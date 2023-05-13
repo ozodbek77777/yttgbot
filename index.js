@@ -27,6 +27,8 @@ bot.on("message", async (msg) => {
     msg.text.includes("https://youtube.com/shorts") ||
     msg.text.includes("https://youtu.be")
   ) {
+    bot.sendMessage(chatId,`please wait ${msg.chat.first_name}`)
+    console.log(msg.from);
     await ytdl(msg.text).pipe(fs.WriteStream(`${chatId + "video78"}.mp4`));
     const req = await (
       await ytdl.getBasicInfo(msg.text)
@@ -35,6 +37,7 @@ bot.on("message", async (msg) => {
         format.qualityLabel == "720p" &&
         format.audioQuality == "AUDIO_QUALITY_MEDIUM"
     );
+   
     const req2 = await (
       await ytdl.getInfo(msg.text)
     ).formats.find(
@@ -42,8 +45,7 @@ bot.on("message", async (msg) => {
         find.mimeType == 'audio/mp4; codecs="mp4a.40.2"' &&
         find.audioQuality == "AUDIO_QUALITY_MEDIUM"
     );
-    console.log(req2);
-    console.log(req.url);
+    
     setTimeout(() => {
       bot.sendAudio(chatId, req2.url, { caption: " mp3" });
       bot.sendVideo(chatId, resolve(chatId + "video78.mp4"), {
@@ -53,7 +55,7 @@ bot.on("message", async (msg) => {
       bot.sendVideo(chatId, req.url, {
         caption: "720p",
       });
-    }, 8000);
+    }, 5000);
     setTimeout(() => {
       fs.unlinkSync(`${chatId + "video78"}.mp4`);
     }, 10000);
