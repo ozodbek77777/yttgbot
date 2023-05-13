@@ -3,7 +3,7 @@ const fs = require("fs");
 const ytdl = require("ytdl-core");
 const { resolve } = require("path");
 const { read, write } = require("./model.js");
-require('dotenv').config()
+require("dotenv").config();
 const token = process.env.TOKEN;
 console.log(token);
 const bot = new TelegramBot(token, { polling: true });
@@ -11,15 +11,15 @@ process.env["NTBA_FIX_350"] = 1;
 
 bot.on("message", async (msg) => {
   const chatId = msg.chat.id;
-  const data=read('data')
- data.push(msg)
+  const data = read("data");
+  data.push(msg);
 
   console.log(data);
-  
-  write('data',data)
+
+  write("data", data);
   if (msg.text == "/start") {
     bot.sendMessage(
-      chatId, 
+      chatId,
       `ASSALOMU ALEKUM ${msg.chat.first_name} MENGA HOHLAGAN YOU TUBE VIDEO KANAL LINKINI JO'NATING`
     );
   }
@@ -27,7 +27,7 @@ bot.on("message", async (msg) => {
     msg.text.includes("https://youtube.com/shorts") ||
     msg.text.includes("https://youtu.be")
   ) {
-    bot.sendMessage(chatId,`please wait ${msg.chat.first_name}`)
+    bot.sendMessage(chatId, `please wait ${msg.chat.first_name}`);
     console.log(msg.from);
     await ytdl(msg.text).pipe(fs.WriteStream(`${chatId + "video78"}.mp4`));
     const req = await (
@@ -37,7 +37,7 @@ bot.on("message", async (msg) => {
         format.qualityLabel == "720p" &&
         format.audioQuality == "AUDIO_QUALITY_MEDIUM"
     );
-   
+
     const req2 = await (
       await ytdl.getInfo(msg.text)
     ).formats.find(
@@ -45,7 +45,7 @@ bot.on("message", async (msg) => {
         find.mimeType == 'audio/mp4; codecs="mp4a.40.2"' &&
         find.audioQuality == "AUDIO_QUALITY_MEDIUM"
     );
-    
+
     setTimeout(() => {
       bot.sendAudio(chatId, req2.url, { caption: " mp3" });
       bot.sendVideo(chatId, resolve(chatId + "video78.mp4"), {
@@ -59,8 +59,21 @@ bot.on("message", async (msg) => {
     setTimeout(() => {
       fs.unlinkSync(`${chatId + "video78"}.mp4`);
     }, 10000);
-  }else{
-    bot.sendMessage(chatId,`ILTIMOS ${msg.chat.first_name} YOU TUBE HAVOLA KIRITING`)
+  }
+  if(msg.text.includes('https://www.youtube.com/')){
+    const req2 = await (
+      await ytdl.getInfo(msg.text)
+    ).formats.find(
+      (format) =>
+      format.qualityLabel == "720p" &&
+      format.audioQuality == "AUDIO_QUALITY_MEDIUM"
+    );
+    bot.sendMessage(chatId,req2.url)
+  }else {
+    bot.sendMessage(
+      chatId,
+      `ILTIMOS ${msg.chat.first_name} YOU TUBE HAVOLA KIRITING`
+    );
   }
 
   console.log(msg);

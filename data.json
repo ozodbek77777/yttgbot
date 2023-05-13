@@ -25,7 +25,7 @@
         ]
     },
     {
-        "message_id": 344,
+        "message_id": 623,
         "from": {
             "id": 997879708,
             "is_bot": false,
@@ -39,18 +39,18 @@
             "username": "awful_goals",
             "type": "private"
         },
-        "date": 1683958458,
-        "text": "https://youtube.com/shorts/srR9T9Gndxg?feature=share",
+        "date": 1683973392,
+        "text": "https://www.youtube.com/watch?v=pYHTRtzGMUw",
         "entities": [
             {
                 "offset": 0,
-                "length": 52,
+                "length": 43,
                 "type": "url"
             }
         ]
     },
     {
-        "message_id": 450,
+        "message_id": 624,
         "from": {
             "id": 997879708,
             "is_bot": false,
@@ -64,36 +64,18 @@
             "username": "awful_goals",
             "type": "private"
         },
-        "date": 1683968539,
-        "text": "v"
-    },
-    {
-        "message_id": 452,
-        "from": {
-            "id": 997879708,
-            "is_bot": false,
-            "first_name": "Abdumajidov Ozodbek",
-            "username": "awful_goals",
-            "language_code": "ru"
-        },
-        "chat": {
-            "id": 997879708,
-            "first_name": "Abdumajidov Ozodbek",
-            "username": "awful_goals",
-            "type": "private"
-        },
-        "date": 1683968554,
-        "text": "https://youtube.com/shorts/XYQ2Nv5qhOo?feature=share",
+        "date": 1683973424,
+        "text": "https://www.youtube.com/watch?v=pYHTRtzGMUw",
         "entities": [
             {
                 "offset": 0,
-                "length": 52,
+                "length": 43,
                 "type": "url"
             }
         ]
     },
     {
-        "message_id": 452,
+        "message_id": 625,
         "from": {
             "id": 997879708,
             "is_bot": false,
@@ -107,18 +89,18 @@
             "username": "awful_goals",
             "type": "private"
         },
-        "date": 1683968554,
-        "text": "https://youtube.com/shorts/XYQ2Nv5qhOo?feature=share",
+        "date": 1683973425,
+        "text": "https://www.youtube.com/watch?v=pYHTRtzGMUw",
         "entities": [
             {
                 "offset": 0,
-                "length": 52,
+                "length": 43,
                 "type": "url"
             }
         ]
     },
     {
-        "message_id": 453,
+        "message_id": 626,
         "from": {
             "id": 997879708,
             "is_bot": false,
@@ -132,18 +114,18 @@
             "username": "awful_goals",
             "type": "private"
         },
-        "date": 1683968642,
-        "text": "https://youtube.com/shorts/XYQ2Nv5qhOo?feature=share",
+        "date": 1683973426,
+        "text": "https://www.youtube.com/watch?v=pYHTRtzGMUw",
         "entities": [
             {
                 "offset": 0,
-                "length": 52,
+                "length": 43,
                 "type": "url"
             }
         ]
     },
     {
-        "message_id": 452,
+        "message_id": 627,
         "from": {
             "id": 997879708,
             "is_bot": false,
@@ -157,18 +139,18 @@
             "username": "awful_goals",
             "type": "private"
         },
-        "date": 1683968554,
-        "text": "https://youtube.com/shorts/XYQ2Nv5qhOo?feature=share",
+        "date": 1683973447,
+        "text": "https://www.youtube.com/watch?v=pYHTRtzGMUw",
         "entities": [
             {
                 "offset": 0,
-                "length": 52,
+                "length": 43,
                 "type": "url"
             }
         ]
     },
     {
-        "message_id": 453,
+        "message_id": 633,
         "from": {
             "id": 997879708,
             "is_bot": false,
@@ -182,18 +164,18 @@
             "username": "awful_goals",
             "type": "private"
         },
-        "date": 1683968642,
-        "text": "https://youtube.com/shorts/XYQ2Nv5qhOo?feature=share",
+        "date": 1683973546,
+        "text": "https://www.youtube.com/watch?v=pYHTRtzGMUw",
         "entities": [
             {
                 "offset": 0,
-                "length": 52,
+                "length": 43,
                 "type": "url"
             }
         ]
     },
     {
-        "message_id": 454,
+        "message_id": 635,
         "from": {
             "id": 997879708,
             "is_bot": false,
@@ -207,18 +189,18 @@
             "username": "awful_goals",
             "type": "private"
         },
-        "date": 1683968679,
-        "text": "https://youtube.com/shorts/XYQ2Nv5qhOo?feature=share",
+        "date": 1683973649,
+        "text": "https://www.youtube.com/watch?v=pYHTRtzGMUw",
         "entities": [
             {
                 "offset": 0,
-                "length": 52,
+                "length": 43,
                 "type": "url"
             }
         ]
     },
     {
-        "message_id": 464,
+        "message_id": 637,
         "from": {
             "id": 997879708,
             "is_bot": false,
@@ -232,18 +214,18 @@
             "username": "awful_goals",
             "type": "private"
         },
-        "date": 1683968715,
-        "text": "https://youtube.com/shorts/XYQ2Nv5qhOo?feature=share",
+        "date": 1683973673,
+        "text": "https://www.youtube.com/watch?v=pYHTRtzGMUw",
         "entities": [
             {
                 "offset": 0,
-                "length": 52,
+                "length": 43,
                 "type": "url"
             }
         ]
     },
     {
-        "message_id": 468,
+        "message_id": 639,
         "from": {
             "id": 997879708,
             "is_bot": false,
@@ -257,18 +239,18 @@
             "username": "awful_goals",
             "type": "private"
         },
-        "date": 1683968751,
-        "text": "https://youtube.com/shorts/XYQ2Nv5qhOo?feature=share",
+        "date": 1683973699,
+        "text": "https://www.youtube.com/watch?v=K2f0EREta9w",
         "entities": [
             {
                 "offset": 0,
-                "length": 52,
+                "length": 43,
                 "type": "url"
             }
         ]
     },
     {
-        "message_id": 472,
+        "message_id": 641,
         "from": {
             "id": 997879708,
             "is_bot": false,
@@ -282,112 +264,12 @@
             "username": "awful_goals",
             "type": "private"
         },
-        "date": 1683968891,
-        "text": "https://youtube.com/shorts/XYQ2Nv5qhOo?feature=share",
+        "date": 1683973771,
+        "text": "https://www.youtube.com/watch?v=3ZNpMrMvICI",
         "entities": [
             {
                 "offset": 0,
-                "length": 52,
-                "type": "url"
-            }
-        ]
-    },
-    {
-        "message_id": 476,
-        "from": {
-            "id": 997879708,
-            "is_bot": false,
-            "first_name": "Abdumajidov Ozodbek",
-            "username": "awful_goals",
-            "language_code": "ru"
-        },
-        "chat": {
-            "id": 997879708,
-            "first_name": "Abdumajidov Ozodbek",
-            "username": "awful_goals",
-            "type": "private"
-        },
-        "date": 1683968958,
-        "text": "https://youtube.com/shorts/XYQ2Nv5qhOo?feature=share",
-        "entities": [
-            {
-                "offset": 0,
-                "length": 52,
-                "type": "url"
-            }
-        ]
-    },
-    {
-        "message_id": 480,
-        "from": {
-            "id": 997879708,
-            "is_bot": false,
-            "first_name": "Abdumajidov Ozodbek",
-            "username": "awful_goals",
-            "language_code": "ru"
-        },
-        "chat": {
-            "id": 997879708,
-            "first_name": "Abdumajidov Ozodbek",
-            "username": "awful_goals",
-            "type": "private"
-        },
-        "date": 1683969024,
-        "text": "https://youtube.com/shorts/XYQ2Nv5qhOo?feature=share",
-        "entities": [
-            {
-                "offset": 0,
-                "length": 52,
-                "type": "url"
-            }
-        ]
-    },
-    {
-        "message_id": 485,
-        "from": {
-            "id": 997879708,
-            "is_bot": false,
-            "first_name": "Abdumajidov Ozodbek",
-            "username": "awful_goals",
-            "language_code": "ru"
-        },
-        "chat": {
-            "id": 997879708,
-            "first_name": "Abdumajidov Ozodbek",
-            "username": "awful_goals",
-            "type": "private"
-        },
-        "date": 1683969089,
-        "text": "https://youtube.com/shorts/XYQ2Nv5qhOo?feature=share",
-        "entities": [
-            {
-                "offset": 0,
-                "length": 52,
-                "type": "url"
-            }
-        ]
-    },
-    {
-        "message_id": 490,
-        "from": {
-            "id": 997879708,
-            "is_bot": false,
-            "first_name": "Abdumajidov Ozodbek",
-            "username": "awful_goals",
-            "language_code": "ru"
-        },
-        "chat": {
-            "id": 997879708,
-            "first_name": "Abdumajidov Ozodbek",
-            "username": "awful_goals",
-            "type": "private"
-        },
-        "date": 1683969420,
-        "text": "https://youtube.com/shorts/XYQ2Nv5qhOo?feature=share",
-        "entities": [
-            {
-                "offset": 0,
-                "length": 52,
+                "length": 43,
                 "type": "url"
             }
         ]
